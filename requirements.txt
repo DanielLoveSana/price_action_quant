@@ -1,0 +1,22 @@
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+plotly>=5.10.0
+
+# Technical analysis
+ta-lib>=0.4.26
+pandas-ta>=0.3.14
+
+# Data sources
+yfinance>=0.2.18
+akshare>=1.10.0
+ccxt>=3.0.0
+
+# Backtesting (for future phases)
+vectorbt>=0.25.0
+
+# Development
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
