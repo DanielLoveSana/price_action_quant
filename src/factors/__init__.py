@@ -13,9 +13,22 @@ from .market_structure import (
     SwingPointDetector
 )
 
+from .key_levels import (
+    SupportResistanceAnalyzer,
+    PivotPointCalculator,
+    VolumeProfileAnalyzer,
+    OrderBlockDetector,
+    KeyLevelAnalyzer
+)
+
 __all__ = [
     "MarketStructureAnalyzer",
     "TrendAnalyzer", 
     "StructureBreakAnalyzer",
-    "SwingPointDetector"
+    "SwingPointDetector",
+    "SupportResistanceAnalyzer",
+    "PivotPointCalculator",
+    "VolumeProfileAnalyzer",
+    "OrderBlockDetector",
+    "KeyLevelAnalyzer"
 ]
